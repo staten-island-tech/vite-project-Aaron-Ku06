@@ -1,6 +1,8 @@
 .container{
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 .descriptions{
@@ -12,12 +14,20 @@ text-align: center;
     background-color: rgb(70, 58, 58);
     width: 400px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-style: inset;
+    display: flex;
+    flex-direction: column;
 }
 
 .Sorcerers{
     align-items: center;
     border-radius: 20px;
     border-width: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-align: center;
 }
