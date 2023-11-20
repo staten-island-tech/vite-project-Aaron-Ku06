@@ -2,32 +2,34 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    flex-direction: column;
+    margin: 1rem;
 }
-
 .descriptions{
-display: fl;
 text-align: center;
+margin: 0px 0px;
 }
-
 .card{
     background-color: rgb(70, 58, 58);
     width: 400px;
+    height: 60vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-style: inset;
     display: flex;
     flex-direction: column;
+    margin: 1rem;
 }
 
 .Sorcerers{
     align-items: center;
     border-radius: 20px;
     border-width: 10px;
-    display: flex;
-    flex-direction: column;
 }
-
 .title{
     text-align: center;
+}
+.image{
+    border-style: solid;
+    border-color: rgb(121, 49, 16);
+    width: 300px;
 }
