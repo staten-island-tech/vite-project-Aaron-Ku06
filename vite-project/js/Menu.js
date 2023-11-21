@@ -1,3 +1,46 @@
-const Menu = ["Za", "stuff"];
-const Name = "Aaron"
-export {Menu, Name};
+const cards = [{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+{
+    Name: "",
+    Class: "",
+    Domain: "",
+    Status: "",
+},
+];
+
+
+

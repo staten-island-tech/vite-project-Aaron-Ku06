@@ -33,3 +33,27 @@ margin: 0px 0px;
     border-color: rgb(121, 49, 16);
     width: 300px;
 }
+
+@import url(variables.css);
+
+:root{
+    --infinity-void: 
+    --malevolent-shrine: 
+}
+.placeholder{
+    background-image: var(--infinity-void);
+}
+.light{
+    background-image: url(./public/Infinity-Void.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.dark{
+    background-image: url(./public/Malevolent-Shrine.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
