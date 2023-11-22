@@ -1,3 +1,3 @@
-import '../css/style.css';
-import {Menu, Name} from "./Menu"
+import './Menu';
+
 
