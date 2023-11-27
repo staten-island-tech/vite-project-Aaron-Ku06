@@ -1,45 +1,52 @@
-import ".."
+import '../css/variables.css'
 const cards = [{
-    Name: "",
-    Class: "",
-    Domain: "",
-    Status: "",
+    Name: "Toji Fushiguro",
+    Clan: "Zenin",
+    Domain: "No",
+    Status: "Dead",
+    Image: "",
+},
+{
+    Name: "Satoru Gojo",
+    Clan: "Gojo",
+    Domain: "Yes",
+    Status: "Alive",
+    Image: "",
+},
+{
+    Name: "Megumi Fushiguro",
+    Clan: "Zenin",
+    Domain: "Yes",
+    Status: "Alive",
+    Image: "",
 },
 {
     Name: "",
-    Class: "",
+    Clan: "",
     Domain: "",
     Status: "",
+    Image: "",
 },
 {
     Name: "",
-    Class: "",
+    Clan: "",
     Domain: "",
     Status: "",
+    Image: "",
 },
 {
     Name: "",
-    Class: "",
+    Clan: "",
     Domain: "",
     Status: "",
+    Image: "",
 },
 {
     Name: "",
-    Class: "",
+    Clan: "",
     Domain: "",
     Status: "",
-},
-{
-    Name: "",
-    Class: "",
-    Domain: "",
-    Status: "",
-},
-{
-    Name: "",
-    Class: "",
-    Domain: "",
-    Status: "",
+    Image: "",
 },
 ];
 
