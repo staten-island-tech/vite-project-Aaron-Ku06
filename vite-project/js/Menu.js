@@ -85,8 +85,8 @@ function characters(){
         />
         <h3 class="descriptions" id="domain">${card.Domain}</h3>
         <h3 class="descriptions" id="clan">${card.Clan}</h3>
-        <h3 class="descriptions" id="status">${card.Status}</h3>
- `);
+        <h3 class="descriptions" id="status">${card.Status}</h3>`
+        );
     });
 }
 characters();
