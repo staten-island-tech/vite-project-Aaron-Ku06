@@ -45,7 +45,7 @@ const cards = [{
     DomainName: "Penis Expansion Surgery",
     Status: "Alive",
     Living: true,
-    Image: "",
+    Image: "https://static.wikia.nocookie.net/jujutsu-kaisen/images/7/79/Yuta_Okkotsu_%28Chapter_137%29.png/revision/latest?cb=20210201190010",
 },
 {
     Name: "Maki Zenin",
