@@ -1,75 +1,70 @@
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    box-sizing: border-box;
-    margin: 1rem;
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+  margin: 1rem;
 }
 
-.descriptions{
-    text-align: center;
-    margin: 0px 0px;
+.descriptions {
+  text-align: center;
+  margin: 0px 0px;
 }
 
-.card{
-    background-color: rgb(70, 58, 58);
-    width: 400px;
-    height: 60vh;
-    align-items: center;
-    justify-content: space-around;
-    border-style: inset;
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
+.card {
+  background-color: rgb(70, 58, 58);
+  width: 400px;
+  height: 60vh;
+  align-items: center;
+  justify-content: space-around;
+  border-style: inset;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
 }
 
-.display{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.Sorcerers{
-    align-items: center;
-    border-radius: 20px;
-    border-width: 10px;
+.Sorcerers {
+  align-items: center;
+  border-radius: 20px;
+  border-width: 10px;
 }
-.title{
-    text-align: center;
+.title {
+  text-align: center;
 }
-.image{
-    border-style: solid;
-    border-color: rgb(121, 49, 16);
-    width: 200px;
+.image {
+  border-style: solid;
+  border-color: rgb(121, 49, 16);
+  width: 200px;
 }
 
 .void {
-    background-image: url(/vite-project/public/infinite_void.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(/infinite_void.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.option{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    column-gap: 5%;
+.option {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5%;
 }
 
 .shrine {
-    background-image: url(/vite-project/public/malevolent_shrine.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url(/malevolent_shrine.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
-
-
-
-
 
