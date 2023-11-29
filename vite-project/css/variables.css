@@ -5,10 +5,12 @@
     box-sizing: border-box;
     margin: 1rem;
 }
+
 .descriptions{
     text-align: center;
     margin: 0px 0px;
 }
+
 .card{
     background-color: rgb(70, 58, 58);
     width: 400px;
@@ -21,6 +23,12 @@
     margin: 1rem;
 }
 
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 .Sorcerers{
     align-items: center;
@@ -36,19 +44,7 @@
     width: 300px;
 }
 
-
-.head {
-    background-color: var(--primary);
-  }
-
-
-.main {
-    background-color: var(--secondary);
-  }
- 
-
-
-.light {
+.void {
     background-image: url(/vite-project/public/infinite_void.jpg);
     background-position: center;
     background-size: cover;
@@ -56,9 +52,16 @@
     background-attachment: fixed;
 }
 
+.option{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+}
 
-.dark {
-    background-image: url(vite-project/public/malevolent_shrine.jpg);
+.shrine {
+    background-image: url(/vite-project/public/malevolent_shrine.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
