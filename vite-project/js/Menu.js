@@ -47,7 +47,7 @@ const cards = [
     Name: "Yuta Okkotsu",
     Clan: "N/A",
     Domain: true,
-    DomainName: "Penis Expansion Surgery",
+    DomainName: "Unknown",
     Status: "Alive",
     Living: true,
     Image:
@@ -110,7 +110,7 @@ function characters() {
           class="image"
           src="${card.Image}"
         />
-        <h3 class="descriptions" id="domain">${card.DomainName}</h3>
+        <h3 class="descriptions" id="domain">Domain: ${card.DomainName}</h3>
         <h3 class="descriptions" id="clan">Clan: ${card.Clan}</h3>
         <h3 class="descriptions" id="status">${card.Status}</h3>`
     );
