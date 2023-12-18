@@ -1,6 +1,5 @@
 import {DOMSelectors, cards} from "./Menu"
 
-
 document.querySelector(".filter-btn1").addEventListener("click", function () {
     DOMSelectors.display.innerHTML = "";
   });
