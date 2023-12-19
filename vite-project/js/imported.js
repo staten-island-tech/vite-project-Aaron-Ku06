@@ -1,4 +1,5 @@
 import {DOMSelectors, cards} from "./Menu"
+import '../css/variables.css'
 
 document.querySelector(".filter-btn1").addEventListener("click", function () {
     DOMSelectors.display.innerHTML = "";
@@ -41,7 +42,7 @@ document.querySelector(".filter-btn1").addEventListener("click", function () {
       );
     });
   }
-  characters();
+  characters(cards);
   
   document.querySelector(".domain").addEventListener("click", function () {
     const domainTrueCards = cards.filter((card) => card.Domain === true);
